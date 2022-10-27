@@ -23,6 +23,9 @@ class OrderController extends Controller
             'detail_order' => $request->input('detail_order'),
             
         ]);
+        $order = $request->input('detail_order');
+        $redirect = Http::get('https://wa.me/+6281395904462?text={{ $order }}');
+        return $redirect;
         return redirect()->back();
     }
 }
