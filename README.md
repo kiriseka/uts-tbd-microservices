@@ -29,4 +29,4 @@ Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pemb
 - Menghubungkan aplikasi website utama dengan api yang disediakan microservices lain 
 - Membuat microservices yang menghandle fitur order
 2. Dilla Saldia Fadillah (1177050029)
-- Mmembuat Frontend Menggunakan HTML & CSS
+- Membuat Frontend Menggunakan HTML & CSS
