@@ -32,3 +32,6 @@ Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pemb
 2. Nurhadi Qomaruddin (1197050100):
 - Membuat microservices yang menghandle fitur item
 - Membuat microservices yang menghandle fitur employee
+
+3. Dilla Saldia Fadillah (1177050029)
+- Membuat Frontend Menggunakan HTML & CSS
