@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Home</title>
+</head>
+<body id="home">
+
+  <!-- Navbar -->
+  <nav>
+    <ul>
+      <a href="#home" class="logo">
+        <img src="assets/images/logo-removebg.png" alt="">
+      </a>
+    </ul>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <span class="x fa-solid fa-xmark" id="close"></span>
+      <span class="bar fa-solid fa-bars" id="btn"></span>
+    </label>
+
+    <ul class="nav-list" >
+      <li class="nav-items">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link" href="pages/order.html">Order</a>
+      <li class="nav-items">
+        <a class="nav-link" href="pages/contact.html">Contact</a>
+      </li>
+      <li class="nav-items">
+        <a class="nav-link" href="admin/sign-in.html">Sign In</a>
+      </li>          
+    </ul>
+  </nav>
+
+  <main>
+
+    <!-- Home -->
+    <section class="home" id="home">
+      <div class="background-img"></div>
+      <div class="text-box">
+        <h1>LET US MAKE YOUR <br>
+          NEXT EVENT AND PARTY GREAT!</h1>
+        <br>
+        <p>
+          Pesta.inc is a professional event or party planner. We will be there to
+          <br>
+          serves all your event or party needs. We have been providing
+          <br>
+          this rental for 10 years. Pesta.inc is your best choice
+          <br>
+          to arranging your next event!
+        </p>
+        <br>
+        <a href="#daftar-barang" class="about-btn">Start Planning Your Event</a>               
+      </div>       
+    </section>
+
+    <section class="offering" id="daftar-barang">
+      <div class="row" style="background-color: #fff;">
+        <div class="text-center" style="color: #2e2e2e; letter-spacing: 0.5rem;">
+            <h1><b>What Are We Offering to You?</b></h1>
+        </div>
+    </div>
+    </section>    
+    
+    <!-- Product -->
+    <section class="product" id="product">
+      <div class="cont-product">
+        <div class="row">
+          <div class="col">
+            <img src="assets/images/barang/tenda-dekorasi.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Tenda Dekorasi</h4>
+              <p>Minimal Order 100 m2</p>
+              <p class="fa-solid fa-tag">
+                <a>50.000/m2 per hari</a>
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="assets/images/barang/kipas-blower.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Kipas Blower</h4>
+              <p>Harga sewa per unit</p>
+              <p class="fa-solid fa-tag">
+                <a>400.000/hari</a>
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="assets/images/barang/set-meja-futura.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Set Meja Futura</h4>
+              <p>1 set: 8 kursi dan 1 meja</p>
+              <p class="fa-solid fa-tag">
+                <a>250.000/set per hari</a>
+              </p>
+            </div>
+          </div>
+          <a href="pages/list-barang.html" class="about-btn">Lihat lainnya...</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="offering2">
+      <div class="row" style="background-color: #fff;">
+        <div class="text-center" style="color: #2e2e2e; letter-spacing: 0.5rem;">
+            <h1><b>Need a Decoration?</b></h1>
+        </div>
+    </div>
+    </section> 
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Decoration  -->
+    <section class="decoration">
+      <div class="desc-title">
+        <h2>We serve various of decorations to
+          <br>
+          beauty almost any space.
+        </h2>
+      </div>
+      <section>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="assets/images/carousel/carousel1.jpg" alt="Decoration">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/carousel/carousel2.png" alt="Decoration">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/carousel/carousel3.png" alt="Decoration">
+            </div>
+            <div class="swiper-slide">
+              <img src="assets/images/carousel/carousel4.png" alt="Decoration">
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <br>
+      <br>
+    </section>
+
+    <section class="offering3">
+      <div class="row" style="background-color: #fff;">
+        <div class="text-center mb-5 mt-5" style="color: #2e2e2e; letter-spacing: 0.5rem;">
+            <h1><b>List of Master of Ceremony (MC)</b></h1>
+        </div>
+    </div>
+    </section>
+
+    <!-- MC -->
+    <section class="product" id="product">
+      <div class="cont-product">
+        <div class="desc-title-mc">
+          <h2>
+            <br>
+            The role of Master of Ceremony (MC) very important.
+            <br>
+            In every event, you definitely need an MC to handle the event so that it runs well.
+          </h2>
+        </div>
+        <div class="row">          
+          <div class="col-mc">
+            <img src="assets/images/mc/ardian.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Muhammad Ardian</h4>
+              <p>Master of Ceremony for
+                <br>
+                your special event<br>
+              (Formal/Non-Formal)
+              </p>
+            </div>
+          </div>
+          <div class="col-mc">
+            <img src="assets/images/mc/dian.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Dian Rindi</h4>
+              <p>Master of Ceremony for
+                <br>
+                your special event<br>
+                (Formal/Non-Formal)
+              </p>
+            </div>
+          </div>
+          <div class="col-mc">
+            <img src="assets/images/mc/iqbal.png" alt="">
+            <div class="buy">
+              <h4 class="item-name">Iqbal Surya Akbar</h4>
+              <p>Master of Ceremony for
+                <br>
+                your special event<br>
+                (Formal/Non-Formal)
+              </p>
+            </div>
+          </div>
+          <a href="pages/list-mc.html" class="about-btn">Lihat lainnya...</a>
+        </div>
+      </div>
+    </section>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#2e2e2e" fill-opacity="1" d="M0,224L120,202.7C240,181,480,139,720,138.7C960,139,1200,181,1320,202.7L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg> 
+
+    <!-- Date -->
+    <section class="date">
+      <div class="date-row">
+        <div class="date-col">
+          <img src="assets/images/logo-removebg.png" alt="">
+        </div>
+        <div class="date-col"> 
+          <h2>We provide you the
+            <br>
+            best quality and services
+            <br>
+            to your event or party!</h2>
+        </div>
+        <div class="date-col">
+          <p style="font-weight: bold;">Monday - Thursday: </p>
+          <h3 style="color: #FFC107">7.00 AM - 10.00 PM</h3>
+          <p style="font-weight: bold;">Friday:</p>
+          <h3 style="color: #FFC107">Close</h3>
+          <p style="font-weight: bold;">Saturday - Sunday:
+          </p>
+          <h3 style="color: #FFC107">10.00 AM - 10.00 PM</h3>
+        </div>
+      </div>
+    </section>    
+  </main>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
