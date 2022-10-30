@@ -28,3 +28,7 @@ Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pemb
 - Menerapkan front end dari website utama (website penghubung) menjadi sebuah aplikasi dengan framework Laravel
 - Menghubungkan aplikasi website utama dengan api yang disediakan microservices lain 
 - Membuat microservices yang menghandle fitur order
+
+2. Nurhadi Qomaruddin (1197050100):
+- Membuat microservices yang menghandle fitur item
+- Membuat microservices yang menghandle fitur employee
