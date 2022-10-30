@@ -21,7 +21,7 @@ Aplikasi yang akan dibuat merupakan aplikasi penyewaan alat pesta yang diberi na
 ![Microservices drawio](https://user-images.githubusercontent.com/92593820/198835277-f0925a40-ca2d-4a2e-9f8a-532c232d1241.png)
 
 
-#Pembagian Tugas
+# Pembagian Tugas
 Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pembagian tugas tersebut adalah sebagai berikut: 
 
 1. Maulana Hamdani (1197050066): 
