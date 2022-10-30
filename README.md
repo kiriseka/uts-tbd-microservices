@@ -1,7 +1,6 @@
 Repository untuk mengumpulkan Ujian Tengah Semester Teknologi Basis Data
 
 Kelompok 5: Penyewaan Alat Pesta
-Nama Anggota:
 1. Dilla Saldia Fadillah (1177050029)
 2. Andin Aprila Sari (1197050015)
 3. Maulana Hamdani (1197050066)
@@ -35,3 +34,7 @@ Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pemb
 
 3. Dilla Saldia Fadillah (1177050029)
 - Membuat Frontend Menggunakan HTML & CSS
+
+4. Andin Aprila Sari (1197050015)
+- Membuat rancangan UI dari aplikasi yang akan dibuat
+- Membuat dan memperbaiki front-end dengan HTML dan CSS
