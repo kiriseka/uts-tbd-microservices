@@ -8,7 +8,7 @@ Nama Anggota:
 4. Nurhadi Qomaruddin (1197050100)
 
 # Tentang Aplikasi
-Aplikasi yang akan dibuat merupakan aplikasi penyewaan alat pesta yang diberi nama Pesta.inc. Aplikasi ini dibuat dengan beberapa microservice yang berbeda. Ada 3 buah microservice, yaitu microservice untuk menghandle order, item, dan juga employee. Microservice untuk menghandle order dibuat dengan menggunakan bahasa pemrograman PHP dengan bantuan framework Laravel dan menggunakan PostgreSql sebagai dbms. 
+Aplikasi yang akan dibuat merupakan aplikasi penyewaan alat pesta yang diberi nama Pesta.inc. Aplikasi ini dibuat dengan beberapa microservice yang berbeda lalu disatukan ke dalam sebuah website utama (website penghubung). Ada 3 buah microservice, yaitu microservice untuk menghandle order, item, dan juga employee. Microservice untuk menghandle order dibuat dengan menggunakan bahasa pemrograman PHP dengan bantuan framework Laravel dan menggunakan PostgreSql sebagai dbms. 
 
 
 # Dokumentasi Proses Analisis/Perancangan
@@ -21,3 +21,10 @@ Aplikasi yang akan dibuat merupakan aplikasi penyewaan alat pesta yang diberi na
 ![Microservices drawio](https://user-images.githubusercontent.com/92593820/198835277-f0925a40-ca2d-4a2e-9f8a-532c232d1241.png)
 
 
+#Pembagian Tugas
+Dalam pembuatan aplikasi ini, setiap orang memiliki tugasnya masing-masing. Pembagian tugas tersebut adalah sebagai berikut: 
+
+1. Maulana Hamdani (1197050066): 
+- Menerapkan front end dari website utama (website penghubung) menjadi sebuah aplikasi dengan framework Laravel
+- Menghubungkan aplikasi website utama dengan api yang disediakan microservices lain 
+- Membuat microservices yang menghandle fitur order
